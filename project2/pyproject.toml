@@ -1,0 +1,20 @@
+[project]
+name = "project2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nicolofiaba", email = "n.fiaba@campus.unimib.it" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.6",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+project2 = "project2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
