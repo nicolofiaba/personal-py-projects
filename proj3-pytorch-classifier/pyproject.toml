@@ -12,6 +12,8 @@ dependencies = [
     "kagglehub>=1.0.2",
     "notebook>=7.6.3",
     "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
     "torch>=2.14.1",
     "torchvision>=0.29.1",
 ]
